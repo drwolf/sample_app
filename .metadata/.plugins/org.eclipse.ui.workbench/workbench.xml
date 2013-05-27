@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="12" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="65" y="24">
-<fastViewData fastViewLocation="1024"/>
+<window height="768" maximized="true" width="1024" x="65" y="24">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.radrails.rails.ui.ViewRailsPlugins"/>
+<orientation position="512" view="org.epic.regexp.views.RegExpView"/>
+</fastViewData>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -10,48 +13,81 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="48" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="48" y="30"/>
-<coolItem id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView" itemType="typeToolBarContribution" x="48" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.radrails.rails.ui.RailsElementCreationActionSet" itemType="typeToolBarContribution" x="39" y="30"/>
+<coolItem id="org.radrails.rails.ui.railsActions" itemType="typeToolBarContribution" x="118" y="30"/>
+<coolItem id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.rubypeople.rdt.ui.EditorRubyFile" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1368432082716" focus="true" label="Workspace - Resource">
+<page aggregateWorkingSetId="Aggregate for window 1368432082716" focus="true" label="Workspace - RadRails">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.rubypeople.rdt.ui.EditorRubyFile" name="static_pages_controller.rb" partName="static_pages_controller.rb" title="static_pages_controller.rb" tooltip="/home/wolf/Dropbox/sample_app/app/controllers/static_pages_controller.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/wolf/Dropbox/sample_app/app/controllers/static_pages_controller.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="52" selectionTopPixel="0"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="static_pages_spec.rb" partName="static_pages_spec.rb" title="static_pages_spec.rb" tooltip="/home/wolf/Dropbox/sample_app/spec/requests/static_pages_spec.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/wolf/Dropbox/sample_app/spec/requests/static_pages_spec.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1584" selectionTopPixel="274"/>
+</editor>
+<editor id="org.rubypeople.rdt.ui.EditorRubyFile" name="routes.rb" partName="routes.rb" title="routes.rb" tooltip="/home/wolf/Dropbox/sample_app/config/routes.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/wolf/Dropbox/sample_app/config/routes.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="132" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
-<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+<view id="org.radrails.rails.ui.ViewRailsPlugins" partName="Rails Plugins">
+<viewState/>
+</view>
+<view id="org.epic.regexp.views.RegExpView" partName="RegExp">
+<viewState/>
+</view>
+<view id="org.rubypeople.rdt.ui.RubyExplorer" partName="Ruby Explorer">
+<viewState isWindowWorkingSet="false" layout="1" org.rubypeople.rdt.ui.packages.linktoeditor="1" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.AllMembersFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonRubyElementFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.RubyFileFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.NonRubyProjectsFilter" isEnabled="false"/>
+<child filterId="org.rubypeople.rdt.ui.RubyExplorer.LibraryFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.rubypeople.rdt.ui.EditorRubyFile" activePerspective="org.radrails.rails.ui.PerspectiveRails">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -88,21 +124,30 @@
 <perspective_action id="org.rubypeople.rdt.ui.RubyBrowsingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<fastViewBars/>
+<fastViews>
+<view id="org.radrails.rails.ui.ViewRailsPlugins" ratio="0.29918033"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.rubypeople.rdt.ui.RubyExplorer" style="0">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1df95673" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
@@ -115,21 +160,135 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6593407" ratioLeft="420" ratioRight="217" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="bottomLeft" ratio="0.49921507" ratioLeft="318" ratioRight="319" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.radrails.rails.internal.ui.RailsPerspectiveFactory" id="org.radrails.rails.ui.PerspectiveRails" label="RadRails"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="a.com.aptana.ide.core.ui.actionSet.ShowRadRails"/>
+<alwaysOnActionSet id="x.com.aptana.ide.core.ui.actionSet.ShowRadRails"/>
+<alwaysOnActionSet id="eclipsemonkeyAction.actionSet"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.debug.ui.RDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.core.ui.actionSet.aptanamenu"/>
+<alwaysOnActionSet id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView"/>
+<alwaysOnActionSet id="com.aptana.ide.desktop.integration.protocolhandler.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.core.ui.actionSet.documentation"/>
+<alwaysOnActionSet id="com.aptana.ide.installer.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.intro.menuActionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.pathtools.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.update.ui.actionSet"/>
+<alwaysOnActionSet id="org.radrails.rails.ui.railsActions"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.ui.rubyActionSet"/>
+<alwaysOnActionSet id="org.radrails.rails.ui.RailsElementCreationActionSet"/>
+<show_view_action id="org.rubypeople.rdt.testunit.views.TestUnitView"/>
+<show_view_action id="org.rubypeople.rdt.ui.RubyExplorer"/>
+<show_view_action id="org.radrails.rails.ui.ViewRailsPlugins"/>
+<show_view_action id="org.radrails.rails.ui.ViewGenerators"/>
+<show_view_action id="com.aptana.rdt.ViewRakeTasks"/>
+<show_view_action id="com.aptana.rdt.ui.views.RailsAPIView"/>
+<show_view_action id="com.aptana.rdt.ui.views.RubyCoreAPIView"/>
+<show_view_action id="com.aptana.rdt.ui.views.RubyStdLibAPIView"/>
+<show_view_action id="org.epic.regexp.views.RegExpView"/>
+<show_view_action id="com.aptana.gems.ui.ViewGems"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.rubypeople.rdt.ui.views.RIView"/>
+<show_view_action id="org.rubypeople.rdt.ui.RDocView"/>
+<show_view_action id="com.aptana.ide.server.ui.serversView"/>
+<show_view_action id="com.aptana.ide.logging.LogView"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.ERBNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.HAMLNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.SassNewWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.wizards.NewWizardProject"/>
+<new_wizard_action id="org.rubypeople.rdt.ui.wizards.RubyNewFileWizard"/>
+<new_wizard_action id="org.rubypeople.rdt.ui.wizards.RubyNewClassWizard"/>
+<new_wizard_action id="org.rubypeople.rdt.testunit.wizards.RubyNewTestCaseWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.HtmlNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.CssNewWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.JsNewWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.radrails.server.ui.WizardNewServer"/>
+<perspective_action id="com.aptana.ide.js.ui.WebPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViews>
+<view id="org.epic.regexp.views.RegExpView" ratio="0.29923275"/>
+</fastViews>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.rubypeople.rdt.ui.RubyExplorer" style="0">
+<fastViews>
+<view id="org.rubypeople.rdt.ui.RubyExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.rubypeople.rdt.ui.RubyExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7493606" ratioLeft="879" ratioRight="294" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19948849" ratioLeft="234" ratioRight="939" relationship="2" relative="topLeft"/>
+<info folder="true" part="consoleArea" ratio="0.7494005" ratioLeft="625" ratioRight="209" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.radrails.rails.ui.ViewGenerators" label="LabelNotFound"/>
+<page content="org.radrails.rails.ui.ViewRailsPlugins" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="com.aptana.ide.logging.LogView" label="LabelNotFound"/>
+<page content="com.aptana.ide.server.ui.serversView" label="LabelNotFound"/>
+<page content="com.aptana.ide.js.ui.views.problemsView" label="LabelNotFound"/>
+<page content="com.aptana.ide.ui.ViewPlugins" label="LabelNotFound"/>
+<page content="com.aptana.rdt.ViewRakeTasks" label="LabelNotFound"/>
+<page content="org.rubypeople.rdt.ui.views.RIView" label="LabelNotFound"/>
+<page content="com.aptana.gems.ui.ViewGems" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.5995204" ratioLeft="500" ratioRight="334" relationship="4" relative="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="com.aptana.ide.documentation.TutorialView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -140,14 +299,46 @@
 <navigationHistory>
 <editors>
 <editor factoryID="com.aptana.radrails.MyRadRailsElementFactory" id="com.aptana.radrails.MyRadRailsEditor"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" uri="file:/home/wolf/Dropbox/sample_app/app/controllers/static_pages_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" uri="file:/home/wolf/Dropbox/sample_app/spec/requests/static_pages_spec.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" uri="file:/home/wolf/Dropbox/sample_app/config/routes.rb"/>
 </editors>
-<item active="true" historyLabel="My RadRails" index="0"/>
+<item historyLabel="My RadRails" index="0"/>
+<item historyLabel="static_pages_controller.rb" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="static_pages_spec.rb" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="static_pages_spec.rb" index="2">
+<position info="not_deleted" x="1563" y="0"/>
+</item>
+<item historyLabel="static_pages_spec.rb" index="2">
+<position info="not_deleted" x="1354" y="0"/>
+</item>
+<item historyLabel="static_pages_spec.rb" index="2">
+<position info="not_deleted" x="1563" y="0"/>
+</item>
+<item historyLabel="static_pages_spec.rb" index="2">
+<position info="not_deleted" x="1584" y="0"/>
+</item>
+<item historyLabel="routes.rb" index="3">
+<position info="not_deleted" x="132" y="0"/>
+</item>
+<item active="true" historyLabel="static_pages_controller.rb" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomLeft"/>
+<trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -159,5 +350,15 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="routes.rb" tooltip="/home/wolf/Dropbox/sample_app/config/routes.rb">
+<persistable uri="file:/home/wolf/Dropbox/sample_app/config/routes.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="static_pages_spec.rb" tooltip="/home/wolf/Dropbox/sample_app/spec/requests/static_pages_spec.rb">
+<persistable uri="file:/home/wolf/Dropbox/sample_app/spec/requests/static_pages_spec.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="static_pages_controller.rb" tooltip="/home/wolf/Dropbox/sample_app/app/controllers/static_pages_controller.rb">
+<persistable uri="file:/home/wolf/Dropbox/sample_app/app/controllers/static_pages_controller.rb"/>
+</file>
+</mruList>
 </workbench>

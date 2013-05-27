@@ -1,3 +1,5 @@
+GoIntoTopLevelTypeAction.isChecked=true
 eclipse.preferences.version=1
+org.rubypeople.rdt.ui.packages.linktoeditor=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
